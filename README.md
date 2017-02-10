@@ -138,6 +138,8 @@ Differences noted here
 |`wdaLaunchTimeout`|Time, in ms, to wait for WebDriverAgewnt to be pingable. Defaults to 60000ms.|e.g., `30000`|
 |`wdaConnectionTimeout`|Timeout, in ms, for waiting for a response from WebDriverAgent. Defaults to 240000ms.|e.g., `1000`|
 |`resetOnSessionStartOnly`|Whether to perform reset on test session finish (`false`) or not (`true`). Keeping this variable set to `true` and Simulator running (the default behaviour since version 1.6.4) may significantly shorten the duratiuon of test session initialization.|Either `true` or `false`. Defaults to `true`|
+|`wdaStartupRetries`|Number of times to try to build and launch WebDriverAgent onto the device. Defaults to 2.|e.g., `4`|
+|`wdaStartupRetryInterval`|Time, in ms, to wait between tries to build and launch WebDriverAgent. Defaults to 10000ms.|e.g., `20000`|
 
 
 ## Development<a id="development"></a>
